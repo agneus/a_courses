@@ -1,0 +1,15 @@
+.whatever{
+    display:flex;
+    width: 80%;
+    margin: auto;
+}
+.what{
+    margin: 20px;
+    padding: 20px;
+    flex: 0.3;
+    border: 1px solid black;
+}
+
+.what1{
+    padding: 20px;
+}
