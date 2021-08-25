@@ -50,15 +50,7 @@ function Whatever() {
                 <button className="whatbut2" onClick={() =>wee()} >hyaa</button>
             </div>
             <div className='what what2'>
-                <h2>Test Schedule</h2>
-                {sch.map(tip =>
-                    <div className='weh'>
-                        <p>{tip.tex}</p>
-                        <button className="whatbut" onClick={()=>del2(tip.id)}>delete</button>
-                    </div>
-                    )}
-                <input type="text" value={inp2} onChange = {(e) => setInp2(e.target.value)}/>
-                <button onClick={() =>wee2()}>tou</button>
+                <EmployeeList/>
             </div>
             <div className='what what3'>
                 <h2>My tutorials</h2>
