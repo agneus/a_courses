@@ -1,7 +1,7 @@
   
 import { Modal, Button, Alert} from 'react-bootstrap';
 import {useContext, useEffect, useState } from 'react';
-import {EmployeeContext} from '../contexts/EmployeeContext';
+import {EmployeeContext} from './EmployeeContext';
 import Employee from './Employee';
 import AddForm from './AddForm';
 import Pagination from './Pagination';
